@@ -32,3 +32,9 @@ std::string Movie::setToString(const std::set<std::string>& set) const
 
     return str;
 }
+
+
+void Movie::scoreMovies(std::map<std::string, Movie> movies, Movie* selectedMovie) const
+{
+	//goes through map of movies, and scores them based on input movie
+}
